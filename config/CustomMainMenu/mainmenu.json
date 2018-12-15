@@ -1,0 +1,151 @@
+{
+    "images":{
+        "modpack":{
+            "image":"resist:menu/bg_menu.png",
+            "posX":-87.5,
+            "posY": -600,
+            "width":175,
+            "height":2000,
+            "alignment":"center"
+        },
+		"logo":
+        {
+            "image" : "resist:menu/logo.png",
+            "posX" : -32,
+            "posY" : -110,
+            "width" : 64,
+            "height" : 64,
+            "alignment" : "center"
+        }		
+    },
+    "buttons":{
+        "singleplayer":{
+            "text":"Play Offline",
+			"hoverText":"..:.:: Play Offline ::.:..",
+			"hoverTextColor":"16711680",
+            "texture":"resist:menu/longbutton.png",
+            "posX":-80,
+            "posY":-20,
+            "width":160,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"singleplayer"
+            }
+        },
+        "multiplayer":{
+            "text":"Connect to Resist.Network",
+			"hoverText":"..:.:: Connect to Resist.Network ::.:..",
+			"hoverTextColor":"16711680",			
+            "texture":"resist:menu/longbutton.png",
+            "posX":-80,
+            "posY":-40,
+            "width":160,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"multiplayer"
+            }
+        },
+        "forum":{
+            "text":"Visit the Forum",
+			"hoverText":">> Visit the Forum <<",
+			"hoverTextColor":"8421504",			
+            "texture":"resist:menu/longbutton.png",
+            "posX":-80,
+            "posY":10,
+            "width":160,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "alignment":"center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://resist.network"
+            }
+        },
+        "discord":{
+            "text":"Join the Discord",
+			"hoverText":">> Join the Discord <<",
+			"hoverTextColor":"8421504",			
+            "texture":"resist:menu/longbutton.png",
+            "posX":-80,
+            "posY":30,
+            "width":160,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "alignment":"center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/VvtcH7h"
+            }
+        },			
+        "mods":{
+            "text":"Mod Information",
+			"hoverText":">> Mod Information <<",
+			"hoverTextColor":"8421504",			
+            "texture":"resist:menu/longbutton.png",
+            "posX":-80,
+            "posY":50,
+            "width":160,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"mods"
+            }
+        },
+        "options":{
+            "text":"Game Options",
+			"hoverText":">> Game Options <<",
+			"hoverTextColor":"8421504",			
+            "texture":"resist:menu/longbutton.png",
+            "posX":-80,
+            "posY":70,
+            "width":160,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "alignment":"center",
+            "action":{
+                "type":"openGui",
+                "gui":"options"
+            }
+        },
+        "quit":{
+            "text":"Close the Game",
+			"hoverText":"..:.:: Close the Game ::.:..",
+			"hoverTextColor":"16711680",			
+            "texture":"resist:menu/longbutton.png",
+            "posX":-80,
+            "posY":100,
+            "width":160,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "alignment":"center",
+            "action":{
+                "type":"quit"
+            }
+        }
+    },
+    "other":{
+        "background":{
+            "image":"resist:menu/bg.png",
+            "mode":"stretch",
+            "posX":-20,
+            "posY":0		
+        }
+    }
+}
