@@ -2,9 +2,6 @@
 <config>
     <lines at="topleft">
 		<line>
-			<str>$7Resist.Network</str>
-		</line>
-		<line>
             <str>Day {day}, {mctime} (</str>
             <if>
                 <var>daytime</var>
