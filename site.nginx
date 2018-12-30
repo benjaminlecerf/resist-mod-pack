@@ -1,5 +1,5 @@
 server {
-	root /storage/mod-pack;
+	root /storage/resist-mod-pack;
 	index index.html;
 	server_name cdn.resist.network;
 	location /status.json {
