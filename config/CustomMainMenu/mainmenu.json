@@ -54,8 +54,8 @@
             }
         },
         "forum":{
-            "text":"Visit the Forum",
-			"hoverText":">> Visit the Forum <<",
+            "text":"Visit the Website",
+			"hoverText":">> Visit the Website <<",
 			"hoverTextColor":"8421504",			
             "texture":"resist:menu/longbutton.png",
             "posX":-80,
