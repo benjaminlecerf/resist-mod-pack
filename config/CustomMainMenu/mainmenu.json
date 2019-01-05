@@ -49,8 +49,8 @@
             "imageHeight":20,
             "alignment":"center",
             "action":{
-                "type":"openGui",
-                "gui":"multiplayer"
+                "type":"connectToServer",
+                "ip":"portal.resist.network:25565"
             }
         },
         "forum":{
