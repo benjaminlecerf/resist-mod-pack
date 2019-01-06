@@ -2,7 +2,6 @@
 <h1 align="center">mod-pack</h1>
 <p align="center">Resist.Network Mod Pack</p>
 <p align="center"><img src="https://resist.network/wp-content/uploads/2018/12/ud1L2Lx.png"></p>
-<p align="center"><img src="https://resist.network/wp-content/uploads/2018/12/Annotation-2018-12-30-154828.jpg"></p>
 <p align="center"><img src="https://resist.network/wp-content/uploads/2018/12/HTNzWnY.png"></p>
 
 
