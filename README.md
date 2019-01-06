@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/resist-network/extras-pack/blob/master/images/128x128.png?raw=true"></p>
 <h1 align="center">
-mod-pack<br />
+resist-mod-pack<br />
 <p align="center"><img style="display:inline;" src="http://cf.way2muchnoise.eu/versions/resist-mod-pack_latest.svg">&nbsp;&nbsp;<img style="display:inline;" src="http://cf.way2muchnoise.eu/resist-mod-pack.svg"></p>
 </h1>
 <p align="center">Resist.Network Mod Pack</p>
