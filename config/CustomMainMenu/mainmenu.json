@@ -50,7 +50,7 @@
             "alignment":"center",
             "action":{
                 "type":"connectToServer",
-                "ip":"play.resist.network:25565"
+                "ip":"resist.network"
             }
         },
         "forum":{
