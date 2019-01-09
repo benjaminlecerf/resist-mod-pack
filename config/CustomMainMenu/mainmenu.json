@@ -49,8 +49,8 @@
             "imageHeight":20,
             "alignment":"center",
             "action":{
-                "type":"connectToServer",
-                "ip":"resist.network"
+                "type":"openGui",
+                "gui":"multiplayer"
             }
         },
         "forum":{
