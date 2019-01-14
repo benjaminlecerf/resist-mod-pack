@@ -1,0 +1,16 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "#pane"
+    },
+    "elements": [
+        {   "from": [ 7.5, 0, 7.5 ],
+            "to": [ 8.5, 16, 8.5 ],
+            "shade": false,
+            "faces": {
+                "down":  { "uv": [  7, 7,  8,  8 ], "texture": "#edge" },
+                "up":    { "uv": [  7, 7,  8,  8 ], "texture": "#edge" }
+            }
+        }
+    ]
+}
