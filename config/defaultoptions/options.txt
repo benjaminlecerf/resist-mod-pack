@@ -35,7 +35,7 @@ touchscreen:false
 overrideWidth:856
 overrideHeight:482
 heldItemTooltips:true
-chatHeightFocused:1.0
+chatHeightFocused:0.44366196
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
