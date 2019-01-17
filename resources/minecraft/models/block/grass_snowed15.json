@@ -1,7 +1,0 @@
-{
-    "parent": "block/grass_snowed",
-    "textures": {
-        "top": "blocks/grass_top7",
-        "side": "blocks/grass_side_snowed7"
-    }
-}

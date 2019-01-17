@@ -1,7 +1,0 @@
-{
-    "parent": "block/waterlily",
-    "textures": {
-        "particle": "blocks/waterlily3",
-        "texture": "blocks/waterlily3"
-    }
-}

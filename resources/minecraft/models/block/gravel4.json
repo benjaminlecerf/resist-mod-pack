@@ -1,6 +1,0 @@
-{
-    "parent": "block/gravel",
-    "textures": {
-        "all": "blocks/gravel4"
-    }
-}

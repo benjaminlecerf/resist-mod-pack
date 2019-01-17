@@ -1,6 +1,0 @@
-{
-    "parent": "block/double_stone_top",
-    "textures": {
-        "all": "blocks/stone_slab_top3"
-    }
-}

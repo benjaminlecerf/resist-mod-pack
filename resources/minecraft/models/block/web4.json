@@ -1,6 +1,0 @@
-{
-    "parent": "block/web",
-    "textures": {
-        "cross": "blocks/web4"
-    }
-}

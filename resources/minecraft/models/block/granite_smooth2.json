@@ -1,6 +1,0 @@
-{
-    "parent": "block/granite_smooth",
-    "textures": {
-        "all": "blocks/stone_granite_smooth2"
-    }
-}

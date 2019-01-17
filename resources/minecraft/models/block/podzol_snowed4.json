@@ -1,6 +1,0 @@
-{
-    "parent": "block/podzol_snowed",
-    "textures": {
-        "side": "blocks/dirt_podzol_side_snowed4"
-    }
-}

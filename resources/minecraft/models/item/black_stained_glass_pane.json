@@ -1,6 +1,0 @@
-{
-    "parent": "item/glass_pane",
-    "textures": {
-        "layer0": "blocks/glass_black"
-    }
-}
