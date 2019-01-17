@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": [ { "model": "diorite" },
+				{ "model": "diorite_0" } ]
+    }
+}

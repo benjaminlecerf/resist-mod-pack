@@ -1,0 +1,7 @@
+{
+	"parent": "block/rail_raised_normal_ne",
+	"textures":{
+		"particle": "blocks/rail_normal",
+		"rail": "blocks/rail_normal"
+	}
+}

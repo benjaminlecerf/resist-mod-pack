@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "normal": [ { "model": "stone" },
+			{ "model": "stone_0" },
+			{ "model": "stone_1" },
+			{ "model": "stone_2" },
+            { "model": "stone_mirrored" },
+			{ "model": "stone_mirrored_0" },
+			{ "model": "stone_mirrored_1" },
+			{ "model": "stone_mirrored_2" },
+            { "model": "stone", "y": 180 },
+			{ "model": "stone_0", "y": 180 },
+			{ "model": "stone_1", "y": 180 },
+			{ "model": "stone_2", "y": 180 },
+            { "model": "stone_mirrored", "y": 180 },
+			{ "model": "stone_mirrored_0", "y": 180 },
+			{ "model": "stone_mirrored_1", "y": 180 },
+			{ "model": "stone_mirrored_2", "y": 180 } ]
+    }
+}

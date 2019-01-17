@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": [ { "model": "coal_ore" },
+			{ "model": "coal_ore_0" } ]
+    }
+}

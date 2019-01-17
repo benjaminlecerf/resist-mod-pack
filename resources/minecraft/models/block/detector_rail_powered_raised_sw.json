@@ -1,0 +1,7 @@
+{
+	"parent": "block/rail_raised_detector_sw",
+	"textures":{
+		"particle": "blocks/rail_detector_powered",
+		"rail": "blocks/rail_detector_powered"
+	}
+}

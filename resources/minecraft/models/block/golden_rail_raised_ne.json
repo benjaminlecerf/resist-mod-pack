@@ -1,0 +1,7 @@
+{
+	"parent": "block/rail_raised_golden_ne",
+	"textures":{
+		"particle": "blocks/rail_golden",
+		"rail": "blocks/rail_golden"
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "blocks/mycelium_top_1",
+        "bottom": "blocks/dirt_1",
+        "top": "blocks/snow",
+        "side": "blocks/mycelium_side_snowed_1"
+    }
+}

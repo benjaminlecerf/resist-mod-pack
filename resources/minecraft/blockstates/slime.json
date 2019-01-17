@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+          { "model": "slime_0" },
+          { "model": "slime_1" },
+          { "model": "slime_2" },
+          { "model": "slime_3" }
+        ]
+    }
+}
