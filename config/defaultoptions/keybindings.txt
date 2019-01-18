@@ -54,6 +54,7 @@ key_enderio.keybind.fovminus:0:NONE
 key_enderio.keybind.fovplusfast:0:NONE
 key_enderio.keybind.fovminusfast:0:NONE
 key_key.xu2.searchforitems:20:NONE
+key_quark.keybind.toggleAutojump:48:NONE
 key_quark.emote.no:0:NONE
 key_quark.emote.yes:0:NONE
 key_quark.emote.wave:0:NONE
@@ -72,7 +73,6 @@ key_quark.emote.dab:0:NONE
 key_quark.emote.jet:0:NONE
 key_quark.emote.exorcist:0:NONE
 key_quark.emote.zombie:0:NONE
-key_quark.keybind.lockBuilding:37:NONE
 key_quark.keybind.dropoff:0:NONE
 key_quark.keybind.changeHotbar:44:NONE
 key_quark.keybind.chestSort:0:NONE
@@ -80,7 +80,7 @@ key_quark.keybind.chestDropoff:0:NONE
 key_quark.keybind.chestMerge:0:NONE
 key_quark.keybind.chestRestock:0:NONE
 key_quark.keybind.chestExtract:0:NONE
-key_quark.keybind.toggleAutojump:48:NONE
+key_quark.keybind.lockBuilding:37:NONE
 key_pe.key.armor_toggle:45:NONE
 key_pe.key.charge:47:NONE
 key_pe.key.extra_function:46:NONE
