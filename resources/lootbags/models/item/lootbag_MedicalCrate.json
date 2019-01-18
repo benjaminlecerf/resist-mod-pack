@@ -1,6 +1,6 @@
 {
 "parent": "item/generated",
 "textures": {
-"layer0": "lootbags:items/lootbagsMedicalCrate"
+"layer0": "lootbags:items/lootbagsWhiteCrate"
 }
 }
