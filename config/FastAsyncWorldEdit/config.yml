@@ -1,7 +1,7 @@
 # These first 6 aren't configurable
 issues: "https://github.com/boy0001/FastAsyncWorldedit/issues"
 wiki: "https://github.com/boy0001/FastAsyncWorldedit/wiki/"
-date: "25 Nov 2018 06:00:00 GMT"
+date: "25 Nov 2018 00:00:00 GMT"
 build: "https://ci.athion.net/job/FastAsyncWorldEdit/1227"
 commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/626169a"
 platform: "forge"
@@ -124,7 +124,7 @@ experimental:
 queue:
   # This should equal the number of processors you have
   #  - Set this to 1 if you need reliable `/timings`
-  parallel-threads: 4
+  parallel-threads: 6
   progress:
     # Display constant titles about the progress of a user's edit
     #  - false = disabled

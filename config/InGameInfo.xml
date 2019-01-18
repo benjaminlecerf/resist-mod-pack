@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
     <lines at="topleft">
-		<line>
+        <line>
+            <str>$7WorldAutomation.Net</str>
+        </line>
+	<line>
             <str>Day {day}, {mctime} (</str>
             <if>
                 <var>daytime</var>
