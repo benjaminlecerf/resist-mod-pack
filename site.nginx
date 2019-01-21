@@ -1,4 +1,12 @@
 server {
+	client_body_buffer_size 80K;
+	client_header_buffer_size 8k;
+	client_max_body_size 300m;
+	large_client_header_buffers 16 8k;
+	client_body_timeout 90;
+	client_header_timeout 90;
+	keepalive_timeout 90;
+	send_timeout 90;
 	root /storage/resist-mod-pack;
 	index index.html;
 	server_name cdn.resist.network casper.resist.network;
