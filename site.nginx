@@ -1,7 +1,7 @@
 server {
 	root /storage/resist-mod-pack;
 	index index.html;
-	server_name cdn.resist.network;
+	server_name cdn.resist.network casper.resist.network;
 	location /status.json {
 		default_type application/json;
 	}
@@ -13,8 +13,8 @@ server {
 		return 301 https://resist.network/503.html;
 	}	
 	listen 443 ssl; # managed by Certbot
-	ssl_certificate /etc/letsencrypt/live/resist.network/fullchain.pem; # managed by Certbot
-	ssl_certificate_key /etc/letsencrypt/live/resist.network/privkey.pem; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/casper.resist.network/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/casper.resist.network/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 }
@@ -22,7 +22,10 @@ server {
 	if ($host = cdn.resist.network) {
 		return 301 https://$host$request_uri;
 	} # managed by Certbot
-	server_name cdn.resist.network;
+	if ($host = casper.resist.network) {
+		return 301 https://$host$request_uri;
+	} # managed by Certbot
+	server_name cdn.resist.network casper.resist.network;
 	listen 80;
 	return 404; # managed by Certbot
 }
