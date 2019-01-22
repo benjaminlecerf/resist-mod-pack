@@ -10,7 +10,7 @@ server {
 	send_timeout 90;
 	root /storage/resist-mod-pack;
 	index index.html;
-	server_name cdn.resist.network casper.resist.network;
+	server_name cdn.resist.network;
 	location /status.json {
 		default_type application/json;
 	}
@@ -32,10 +32,7 @@ server {
 	if ($host = cdn.resist.network) {
 		return 301 https://$host$request_uri;
 	} # managed by Certbot
-	if ($host = casper.resist.network) {
-		return 301 https://$host$request_uri;
-	} # managed by Certbot
-	server_name cdn.resist.network casper.resist.network;
+	server_name cdn.resist.network;
 	listen 80;
 	return 404; # managed by Certbot
 }
