@@ -1,7 +1,7 @@
 //ee watch
 recipes.replaceAllOccurences(<projecte:item.pe_matter>, <projecte:item.pe_klein_star:5>, <projecte:item.pe_time_watch>);
 //recipes.removeShaped(<projecte:item.pe_time_watch>);
-/recipes.addShaped("WatchFix", <projecte:item.pe_time_watch>,
+//recipes.addShaped("WatchFix", <projecte:item.pe_time_watch>,
 // [[<projecte:item.pe_klein_star:5>,<minecraft:glowstone_block>,<projecte:item.pe_klein_star:5>],
 //  [<minecraft:obsidian>,<minecraft:clock>,<minecraft:obsidian>],
 //  [<projecte:item.pe_klein_star:5>,<minecraft:glowstone_block>,<projecte:item.pe_klein_star:5>]]);
