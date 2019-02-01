@@ -54,6 +54,16 @@ key_enderio.keybind.fovminus:0:NONE
 key_enderio.keybind.fovplusfast:0:NONE
 key_enderio.keybind.fovminusfast:0:NONE
 key_key.xu2.searchforitems:20:NONE
+key_quark.keybind.dropoff:0:NONE
+key_quark.keybind.changeHotbar:44:NONE
+key_quark.keybind.chestSort:0:NONE
+key_quark.keybind.chestDropoff:0:NONE
+key_quark.keybind.chestMerge:0:NONE
+key_quark.keybind.chestRestock:0:NONE
+key_quark.keybind.chestExtract:0:NONE
+key_quark.keybind.playerSort:0:NONE
+key_quark.keybind.toggleAutojump:48:NONE
+key_quark.keybind.lockBuilding:37:NONE
 key_quark.emote.no:0:NONE
 key_quark.emote.yes:0:NONE
 key_quark.emote.wave:0:NONE
@@ -72,15 +82,6 @@ key_quark.emote.dab:0:NONE
 key_quark.emote.jet:0:NONE
 key_quark.emote.exorcist:0:NONE
 key_quark.emote.zombie:0:NONE
-key_quark.keybind.toggleAutojump:48:NONE
-key_quark.keybind.lockBuilding:37:NONE
-key_quark.keybind.dropoff:0:NONE
-key_quark.keybind.changeHotbar:44:NONE
-key_quark.keybind.chestSort:0:NONE
-key_quark.keybind.chestDropoff:0:NONE
-key_quark.keybind.chestMerge:0:NONE
-key_quark.keybind.chestRestock:0:NONE
-key_quark.keybind.chestExtract:0:NONE
 key_pe.key.armor_toggle:45:NONE
 key_pe.key.charge:47:NONE
 key_pe.key.extra_function:46:NONE
@@ -93,19 +94,19 @@ key_key.exchanger_range_switch:51:NONE
 key_key.exchanger_mode_switch:39:NONE
 key_key.exchanger_force_drop_items:52:NONE
 key_keybind.hammercorerenderstack:77:NONE
-key_key.ftbquests.quests:34:NONE
 key_key.ftbutilities.warp:35:NONE
 key_key.ftbutilities.nbt:49:ALT
+key_key.ftbquests.quests:34:NONE
 key_key.fart.desc:34:NONE
 key_Dragons Breath:35:NONE
 key_Teleport:34:NONE
-key_ingameinfoxml.key.toggle:0:NONE
+key_key.ironbackpacks.equip:35:NONE
+key_key.ironbackpacks.open:23:NONE
 key_Open MPS Keybind GUI:-1:NONE
 key_Go Down (MPS Flight Control):44:NONE
 key_Cycle Tool Backward (MPS):-1:NONE
 key_Cycle Tool Forward (MPS):-1:NONE
 key_Cosmetic (MPS):-1:NONE
-key_neat.keybind.toggle:0:NONE
 key_openblocks.keybind.vario_switch:47:NONE
 key_openblocks.keybind.vario_vol_up:0:NONE
 key_openblocks.keybind.vario_vol_down:0:NONE
@@ -120,17 +121,8 @@ key_key.openentity.hotkey8:0:NONE
 key_key.openentity.hotkey9:0:NONE
 key_key.interact:46:NONE
 key_key.nightvision:49:NONE
-key_oreexcavation.key.excavate:42:NONE
+key_oreexcavation.key.excavate:41:NONE
 key_oreexcavation.key.shape:47:NONE
-key_Difficulty Meter - Show:49:NONE
-key_Difficulty Meter - Show Always:49:SHIFT
-key_simplyjetpacks.keybind.engine:34:NONE
-key_simplyjetpacks.keybind.hover:38:NONE
-key_simplyjetpacks.keybind.charger:25:NONE
-key_simplyjetpacks.keybind.emergencyhover:19:NONE
-key_key.toastcontrol.clear:36:NONE
-key_key.narrator:48:CONTROL
-key_smoothfont.key.guiOpen:199:NONE
 key_key.cameraZoomIn:13:NONE
 key_key.cameraZoomOut:12:NONE
 key_key.cameraEmitRedstone:19:NONE
@@ -145,8 +137,35 @@ key_key.jei.showUses:22:NONE
 key_key.jei.recipeBack:14:NONE
 key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
-key_key.clienttweaks.disable_step_assist:0:NONE
-key_key.clienttweaks.hide_offhand_item:0:NONE
+key_binniecore.key.hold.for.help.tooltips:15:NONE
+key_mod.chiselsandbits.chiselmode.single:0:NONE
+key_mod.chiselsandbits.chiselmode.snap2:0:NONE
+key_mod.chiselsandbits.chiselmode.snap4:0:NONE
+key_mod.chiselsandbits.chiselmode.snap8:0:NONE
+key_mod.chiselsandbits.chiselmode.line:0:NONE
+key_mod.chiselsandbits.chiselmode.plane:0:NONE
+key_mod.chiselsandbits.chiselmode.connected_plane:0:NONE
+key_mod.chiselsandbits.chiselmode.cube_small:0:NONE
+key_mod.chiselsandbits.chiselmode.cube_medium:0:NONE
+key_mod.chiselsandbits.chiselmode.cube_large:0:NONE
+key_mod.chiselsandbits.chiselmode.same_material:0:NONE
+key_mod.chiselsandbits.chiselmode.drawn_region:0:NONE
+key_mod.chiselsandbits.chiselmode.connected_material:0:NONE
+key_mod.chiselsandbits.positivepatternmode.replace:0:NONE
+key_mod.chiselsandbits.positivepatternmode.additive:0:NONE
+key_mod.chiselsandbits.positivepatternmode.placement:0:NONE
+key_mod.chiselsandbits.positivepatternmode.impose:0:NONE
+key_mod.chiselsandbits.tapemeasure.bit:0:NONE
+key_mod.chiselsandbits.tapemeasure.block:0:NONE
+key_mod.chiselsandbits.tapemeasure.distance:0:NONE
+key_mod.chiselsandbits.other.mode:56:NONE
+key_mod.chiselsandbits.other.rotate.ccw:0:NONE
+key_mod.chiselsandbits.other.rotate.cw:0:NONE
+key_mod.chiselsandbits.other.pickbit:0:NONE
+key_mod.chiselsandbits.other.offgrid:0:NONE
+key_mod.chiselsandbits.other.undo:0:NONE
+key_mod.chiselsandbits.other.redo:0:NONE
+key_mod.chiselsandbits.other.add_to_clipboard:0:NONE
 key_key.refinedstorage.focusSearchBar:15:NONE
 key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
 key_key.craftingtweaks.rotate:0:NONE
@@ -173,21 +192,15 @@ key_key.keyWheel:19:NONE
 key_key.keyExtraCraftin:46:NONE
 key_key.toggleLiquids:38:NONE
 key_key.toggleVisible:0:NONE
-key_debugcrosshair:keybind.toggle:14:NONE
 key_key.immersiveengineering.magnetEquip:31:NONE
 key_key.immersiveengineering.chemthrowerSwitch:0:NONE
-key_[GC] Galaxy Map:50:NONE
-key_[GC] Open Spaceship Inventory:34:NONE
-key_[GC] Toggle Sensor Goggles Mode:37:NONE
-key_Open Matter Scanner GUI:46:NONE
-key_Android Ability key:45:NONE
-key_Android Switch Ability key:19:NONE
 key_key.porterNextDestination:27:NONE
 key_key.porterPrevDestination:26:NONE
 key_key.debugDumpNBTItem:0:NONE
 key_key.debugDumpNBTBlock:0:NONE
-key_invtweaks.key.sort:19:NONE
-key_Open Browser:68:NONE
+key_Open Matter Scanner GUI:46:NONE
+key_Android Ability key:45:NONE
+key_Android Switch Ability key:19:NONE
 key_keybind.fovfixtoggle:0:NONE
 key_key.modifier:13:NONE
 key_key.submode:0:NONE
@@ -210,11 +223,6 @@ key_worldeditcuife2.key.cui.toggle.visibility:0:NONE
 key_worldeditcuife2.key.cui.clear.selection:0:NONE
 key_worldeditcuife2.key.chunk.toggle.visibility:62:NONE
 key_worldeditcuife2.key.distance.toggle.visibility:37:NONE
-key_dsurround.cfg.keybind.SelectionBox:48:NONE
-key_dsurround.cfg.keybind.Volume:47:NONE
-key_dsurround.cfg.keybind.LightLevel:38:NONE
-key_dsurround.cfg.keybind.ChunkBorders:67:NONE
-key_presets.cfg.keybind.Presets:25:NONE
 key_Toggle Jetpack:45:NONE
 key_Open Rocket GUI:46:NONE
 key_Toggle RCS:19:NONE
@@ -237,5 +245,3 @@ key_key.journeymap.fullscreen.north:200:NONE
 key_key.journeymap.fullscreen.south:208:NONE
 key_key.journeymap.fullscreen.east:205:NONE
 key_key.journeymap.fullscreen.west:203:NONE
-key_key.control:29:NONE
-key_Change Mode:23:NONE
