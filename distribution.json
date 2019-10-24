@@ -204,7 +204,9 @@
                                 "size": 318956,
                                 "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
                                 "url": "https://l4.devben.eu/libraries/maven-artifact-3.5.3.jar"
-                            }
-                        }
-                    ]
-		},
+			    }
+                }
+            ]
+        }
+    ]
+}
