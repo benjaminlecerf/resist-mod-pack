@@ -8,25 +8,25 @@
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://westeroscraft.com/articles/index.rss",
+    "rss": "https://forum.ancien-ordre.fr/forum/21-informations.xml",
     "servers": [
         {
-            "id": "Drosalia",
-            "name": "Drosalia",
-            "description": "Want to play a game?",
-            "icon": "https://l4.devben.eu/pack.png",
-            "version": "2.5.1.16",
-            "address": "play.resist.network",
+            "id": "Ancien-ordre",
+            "name": "Ancien-ordre",
+            "description": "Ancien-ordre",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
+            "version": "0.0.1",
+            "address": "minecraft1257.omgserv.com:10234",
             "minecraftVersion": "1.12.2",
             "discord": {
-                "shortId": "Drosalia",
-                "largeImageText": "Drosalia",
-                "largeImageKey": "Drosalia-background"
+                "shortId": "Production",
+                "largeImageText": "WesterosCraft Production Server",
+                "largeImageKey": "server-prod"
             },
             "mainServer": true,
-            "autoconnect": false,
-			"modules": [
-				{
+            "autoconnect": true,
+            "modules": [
+                {
                     "id": "net.minecraftforge:forge:1.12.2",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
@@ -204,6 +204,75 @@
                                 "size": 318956,
                                 "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
                                 "url": "https://l4.devben.eu/libraries/maven-artifact-3.5.3.jar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "org.blockartistry:dynsurround:1.11.2-3.4.9.3",
+                    "name": "DynamicSurroundings",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 14775255,
+                        "MD5": "e51affa484cde17bdf17fa6496d737d2",
+                        "url": "http://l3.devben.eu/sync/mods/DynamicSurroundings-1.12.2-3.5.5.0.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "dsurround.cfg",
+                            "name": "DynamicSurroundings General Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 20258,
+                                "path": "/config/dsurround/dsurround.cfg",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/dsurround/dsurround.cfg"
+                            }
+                        },
+                        {
+                            "id": "westeros.json",
+                            "name": "DynamicSurroundings WesterosCraft Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 608,
+                                "MD5": "44eab112ff24d0bd29974c270de868ba",
+                                "path": "/config/dsurround/westeros.json",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/config/dsurround/westeros.json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "me.discordrp:discordrp:1.12.2-1.2.0",
+                    "name": "Discord RP",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 693494,
+                        "MD5": "b890f0eec5e2eee4a5501160f4e4043f",
+                        "url": "http://l3.devben.eu/sync/mods/DiscordRP-1.12.2-1.2.0..jar"
+                    }
+                },
+                {
+                    "id": "net.optifine:optifine:1.12.2_HD_U_E3",
+                    "name": "Optifine",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2444057,
+                        "MD5": "7ec95c57ac1a224d6eb93bd370e4ac37",
+                        "url": "http://l3.devben.eu/sync/mods/OptiFine_1.12.2_HD_U_E3.jar"
+                    }
+                },
+                {
+                    "id": "servers.dat",
+                    "name": "Saved Client Servers",
+                    "type": "File",
+                    "artifact": {
+                        "size": 79,
+                        "MD5": "4e8fa479abb23bfae13cebec197e2aa4",
+                        "path": "servers.dat",
+                        "url": "http://l3.devben.eu/sync/servers.dat" 
                     }
                 }
             ]
